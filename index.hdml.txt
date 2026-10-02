@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Hardware Inventory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Computer Hardware Inventory</h1>
+        <p>Track and manage computer hardware components.</p>
+    </header>
+
+    <main>
+
+        <section class="form-section">
+            <h2>Add Hardware</h2>
+
+            <input type="text" id="componentName" placeholder="Component name">
+
+            <select id="componentType">
+                <option value="">Select type</option>
+                <option value="CPU">CPU</option>
+                <option value="RAM">RAM</option>
+                <option value="Storage">Storage</option>
+                <option value="GPU">GPU</option>
+                <option value="Motherboard">Motherboard</option>
+                <option value="Power Supply">Power Supply</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <input type="text" id="componentBrand" placeholder="Brand">
+
+            <button onclick="addComponent()">Add Component</button>
+        </section>
+
+        <section>
+            <h2>Hardware Inventory</h2>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search inventory..."
+                onkeyup="searchComponents()"
+            >
+
+            <div id="inventoryList"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Designed and developed by Samuel Larbi</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
