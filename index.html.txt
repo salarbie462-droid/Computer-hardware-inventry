@@ -57,6 +57,10 @@
     </footer>
 
     <script src="script.js"></script>
-
+<section>
+  <h2>About My Project</h2>
+  <p>This is my first Computer Hardware Inventory Project.</p>
+  <p>I created this project to demonstrate my interest in computer hardware and technology.</p>
+</section>
 </body>
 </html>
