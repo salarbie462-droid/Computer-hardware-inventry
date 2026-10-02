@@ -1,0 +1,4 @@
+<h1> computer hardware inventory project </H1>
+<p> my first project </P>
+<p> what i need is a clean and simple portfolio </p>
+<P> this is my first project work </p>
